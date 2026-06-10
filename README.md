@@ -24,7 +24,6 @@ Plain text is output as plain text; tables are output as HTML using only `<table
 | --- | --- |
 | `ocr-skill-en/` | English version of the skill (`SKILL.md` + `render_ocr.py`) |
 | `ocr-skill-zh/` | Chinese version of the skill |
-| `.claude/skills/ocr-validate/` | Skill wired into Claude Code (git-ignored) |
 | `render_ocr.py` | Renders one OCR result (text or table) into a PNG for comparison |
 
 ### Requirements
@@ -66,7 +65,6 @@ In practice you let the agent drive the loop: it reads the source image, produce
 | --- | --- |
 | `ocr-skill-en/` | 英文版 skill（`SKILL.md` + `render_ocr.py`） |
 | `ocr-skill-zh/` | 中文版 skill |
-| `.claude/skills/ocr-validate/` | 接入 Claude Code 的 skill（已被 git 忽略） |
 | `render_ocr.py` | 将单条 OCR 结果（文本或表格）渲染为 PNG，供比对 |
 
 ### 环境依赖
